@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>页面跳转中...</title>
+    <!-- 0秒后跳转到指定页面 -->
+    <meta http-equiv="refresh" content="0; url=https://liruili012341.pythonanywhere.com/">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <p><a href="https://liruili012341.pythonanywhere.com/"></a></p>
+    
+    <script>
+        // 使用JavaScript实现跳转（作为备选方案）
+        setTimeout(function() {
+            window.location.href = "https://liruili012341.pythonanywhere.com/";
+        }, 10); // 10毫秒后跳转
+    </script>
+</body>
+</html>
